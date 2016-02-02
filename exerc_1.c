@@ -15,6 +15,10 @@ int main( int argc, const char* argv[] ){
 
   scanf("%s", string);
 
+  int t;
+  for(t=0;t< 256;t++){
+    printf("%c %d \n", t,t );
+  }
   printf("Você escreveu: %s", string);
 
   return 0;

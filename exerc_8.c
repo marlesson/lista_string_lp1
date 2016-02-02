@@ -34,7 +34,7 @@ int main( int argc, const char* argv[] ){
   vai da esquerda -> direita na string1 e um 'indice2' que vai 
   da direita pra esquerda
    */
-  for(i = 0; i < size/2 ; i++){
+  for(i = 0; i < size ; i++){
     if(string_1[i] != string_2[size-i-1]){
       printf("NÃO é um anagrama!\n");
       return 1;
